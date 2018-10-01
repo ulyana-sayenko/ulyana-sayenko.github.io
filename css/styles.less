@@ -1,0 +1,407 @@
+@yellowDarck: #ffcc33;
+@yellowLight: #ffca26;
+@white: #ffffff;
+@black: #000000;
+@silver: #cccccc;
+@grayDusty: #999999;
+@concreteColor: #f3f3f3;
+@mineShaft: #333333;
+body {
+  font-family: Lato; //HEADER//
+  .header {
+    padding: 40px 0 39px 0;
+    .logo {
+      width: 159px;
+      height: 44px;
+    } //NAVIGATION//
+    .nav {
+      .nav-item {
+        height: 50px;
+        &.active {
+          border-bottom: 3px solid @yellowLight;
+        }
+        .nav-link {
+          color: @black;
+          text-transform: uppercase;
+          font-size: 14pt;
+          font-weight: 700;
+        }
+      }
+    }
+  } //HEAD//
+  .head {
+    background-image: linear-gradient(90deg, @white, @yellowDarck);
+    height: 792px;
+    position: relative;
+    .background-image {
+      opacity: .5;
+      background: url(../images/webside.png) no-repeat center;
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    .display-container {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+    .head-container {
+      height: 792px;
+      text-align: center;
+    }
+    .top-head-text {
+      color: @yellowDarck;
+      font-size: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .middle-head-text {
+      color: @white;
+      font-size: 22px;
+      font-weight: 400;
+    }
+    .bottom-head-text {
+      height: 51px;
+      width: 195px;
+      margin-top: 135px;
+      border-bottom: 3px solid @yellowLight;
+      color: @white;
+      font-size: 22px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  } //BLOCK//
+  .block {
+    background-color: @yellowLight;
+    .block-container {
+      text-align: center;
+      height: 403px;
+      .block-text {
+        width: 690px;
+        font-size: 22px;
+        font-weight: 400px;
+        color: @white;
+      }
+    }
+  } //FOCUS//
+  .focus {
+    height: 864px;
+    .focus-container {
+      height: 164px;
+      text-align: center;
+      .focus-text {
+        font-size: 30px;
+        color: @black;
+        font-weight: 300;
+        text-transform: uppercase;
+        .yellow-text {
+          color: @yellowDarck;
+        }
+      }
+      .gray-text {
+        color: @grayDusty;
+        font-size: 22px;
+        font-style: italic;
+      }
+    }
+    .line-wrapper {
+      width: 100%;
+      height: 2px;
+      background-color: @silver;
+      position: relative;
+      .icon {
+        width: 100%;
+        position: absolute;
+        top: -26px;
+      }
+    }
+    .info-container {
+      margin-top: 133px;
+      .info-heder-text {
+        font-size: 20px;
+        font-weight: 700;
+        color: @grayDusty;
+        margin-bottom: 5px;
+      }
+      .info-body-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: @grayDusty;
+      }
+      img {
+        height: 110px;
+      }
+      .no-left-padding {
+        padding-left: 0;
+      }
+      .no-right-padding {
+        padding-right: 0;
+      }
+    }
+  }
+  .middle-container {
+    margin-top: 18px;
+    .middle-heder-text {
+      font-size: 20px;
+      font-weight: 700;
+      color: @grayDusty;
+      margin-bottom: 5px;
+    }
+    .middle-body-text {
+      font-size: 16px;
+      font-weight: 400;
+      color: @grayDusty;
+    }
+    img {
+      height: 110px;
+    }
+    .no-left-padding {
+      padding-left: 0;
+    }
+    .no-right-padding {
+      padding-right: 0;
+    }
+  }
+  .bottom-container {
+    margin-top: 18px;
+    .bottom-heder-text {
+      font-size: 20px;
+      font-weight: 700;
+      color: @grayDusty;
+      margin-bottom: 5px;
+    }
+    .bottom-body-text {
+      font-size: 16px;
+      font-weight: 400;
+      color: @grayDusty;
+    }
+    img {
+      height: 110px;
+    }
+    .no-left-padding {
+      padding-left: 0;
+    }
+    .no-right-padding {
+      padding-right: 0;
+    }
+  } //ABOUT//
+  .about {
+    height: 300px;
+    .about-container {
+      height: 200px;
+      text-align: center;
+      .about-text {
+        font-size: 30px;
+        font-weight: 300;
+        color: @black;
+        text-transform: uppercase;
+        .yellow-color-text {
+          color: @yellowDarck;
+        }
+      }
+      .gray-color-text {
+        color: @grayDusty;
+        font-size: 22px;
+        font-style: italic;
+      }
+    }
+    .about-line-wrapper {
+      width: 100%;
+      height: 2px;
+      background-color: @silver;
+      position: relative;
+      .icon-vector {
+        width: 100%;
+        position: absolute;
+        top: -26px;
+      }
+    }
+  } //ABOUT TEAM//
+  .about-team {
+    background-color: @concreteColor;
+  }
+  .images2 {
+    height: 497px;
+  }
+  .photo-text {
+    font-size: 29px;
+    color: @mineShaft;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 87px;
+    .black-text {
+      font-size: 37px;
+      font-weight: 700;
+    }
+  }
+  .profile-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: @mineShaft;
+    margin: 63px 0px 48px 0px;
+  }
+  .profile-body-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: @grayDusty;
+  }
+  .skill-container {
+    margin-top: 109px;
+  }
+  .skill {
+    height: 12px;
+    color: @grayDusty;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  .progress {
+    border-radius: 0px;
+    background-color: @grayDusty;
+    .bg-warning {
+      background-color: @yellowLight  !important;
+    }
+  } //STATISTIC//
+  .statistic {
+    border-top: 1px solid @silver;
+    border-bottom: 1px solid @silver;
+    background-color: @concreteColor;
+    .blocks>div {
+      height: 271px;
+      border-left: 1px solid @silver;
+      i {
+        color: @yellowDarck;
+        width: 60px;
+        height: 65px;
+        font-size: 70px;
+        margin-top: 58px;
+      }
+      .numbers {
+        font-size: 26px;
+        font-weight: 700px;
+        color: @mineShaft;
+        margin-top: 41px;
+      }
+      .text-icons {
+        font-size: 16px;
+        font-style: italic;
+        color: @grayDusty;
+        margin-top: 14px;
+      }
+    }
+    .blocks>div:last-child {
+      border-right: 1px solid @silver;
+    }
+  }
+  .team {
+    height: 958px;
+    margin-top: 190px;
+    .team-container {
+      height: 164px;
+      text-align: center;
+      .team-text {
+        font-size: 30px;
+        font-weight: 300;
+        color: @mineShaft;
+        text-transform: uppercase;
+        .yellow-team-text {
+          color: @yellowDarck;
+        }
+      }
+      .gray-team-text {
+        color: @grayDusty;
+        font-size: 22px;
+        font-style: italic;
+      }
+    }
+    .team-line-wrapper {
+      width: 100%;
+      height: 2px;
+      background-color: @silver;
+      position: relative;
+      .icon-team {
+        width: 100%;
+        position: absolute;
+        top: -26px;
+      }
+    }
+    .great-team-container {
+      padding: 75px;
+      .great-team-photo {
+        height: 466px;
+        .great-team-text {
+          font-size: 30px;
+          font-weight: 400;
+        }
+        .great-body-text {
+          font-size: 14px;
+          font-weight: 400;
+          color: @silver;
+          text-transform: uppercase;
+        }
+        .joanna-text {
+          font-size: 30px;
+          font-weight: 400;
+        }
+      }
+    }
+    .joanna-image {
+      position: relative;
+      width: 100%;
+      .joanna-text {
+        position: absolute;
+        top: 365px;
+        left: 32px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        color: @white;
+      }
+    }
+  } //FEATURE//
+  .feature {
+    margin-top: 458px;
+    .feature-container {
+      text-align: center;
+      .feature-text {
+        font-size: 30px;
+        font-weight: 300;
+        color: @mineShaft;
+        text-transform: uppercase;
+        .yellow-feature-text {
+          color: @yellowDarck;
+        }
+      }
+      .gray-feature-text {
+        color: @grayDusty;
+        font-size: 22px;
+        font-style: italic;
+      }
+    }
+    .feature-line-wrapper {
+      width: 100%;
+      height: 2px;
+      background-color: @silver;
+      margin-top: 37px;
+      position: relative;
+      margin-bottom: 112px;
+      .icon-feature {
+        width: 100%;
+        position: absolute;
+        top: -26px;
+        margin-bottom: 106px;
+      }
+    }
+    .great-feature-container {
+      padding: 75px;
+    }
+  } //FEATURE-SMART//
+  .feature-smart {
+    background-color: @concreteColor;
+    height: 837px;
+  }
+}
